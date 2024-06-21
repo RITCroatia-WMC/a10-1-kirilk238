@@ -42,9 +42,9 @@ public class WoolieTest {
                 "\tPERO: 4 seconds.\n" +
                 "\tPERO: 5 seconds.\n" +
                 "PERO arrives at Glassdell.\n";
-        
+
         String actualOutput = outContent.toString().replaceAll("\r\n", "\n");
-    
+
         // Trim both outputs to ignore trailing whitespaces and compare
         assertEquals(expectedOutput.trim(), actualOutput.toString().trim());
     }
